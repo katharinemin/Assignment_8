@@ -1,0 +1,221 @@
+<html>
+<head>
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+	//alert("Hi says jQuery")
+	$("#image").click(function(){
+		$('html, body').css({
+		    'overflow': 'hidden',
+		    'height': '100%'
+		});
+		$("#lightbox").fadeIn();
+	});
+
+	$("#lb_UI a").click(function(){
+		$('html, body').css({
+		    'overflow': 'auto',
+		    'height': 'auto'
+		});
+		$("#lightbox").fadeOut();
+	});
+});
+$(document).ready(function(){
+	//alert("Hi says jQuery")
+	$("#image2").click(function(){
+		$('html, body').css({
+		    'overflow': 'hidden',
+		    'height': '100%'
+		});
+		$("#lightbox2").fadeIn();
+	});
+
+	$("#lb_UI2 a").click(function(){
+		$('html, body').css({
+		    'overflow': 'auto',
+		    'height': 'auto'
+		});
+		$("#lightbox2").fadeOut();
+	});
+});
+$(document).ready(function(){
+	//alert("Hi says jQuery")
+	$("#image3").click(function(){
+		$('html, body').css({
+		    'overflow': 'hidden',
+		    'height': '100%'
+		});
+		$("#lightbox3").fadeIn();
+	});
+
+	$("#lb_UI3 a").click(function(){
+		$('html, body').css({
+		    'overflow': 'auto',
+		    'height': 'auto'
+		});
+		$("#lightbox3").fadeOut();
+	});
+});
+</script>
+
+<style>
+
+#lightbox {
+	width:100%;
+	height:100%;
+	background:rgba(192,192,192,.6);
+	position:absolute;
+	z-index:1000;
+	display:none;
+}
+#lightbox2 {
+	width:100%;
+	height:100%;
+	background:rgba(192,192,192,.6);
+	position:absolute;
+	z-index:1000;
+	display:none;
+}
+#lightbox3 {
+	width:100%;
+	height:100%;
+	background:rgba(192,192,192,.6);
+	position:absolute;
+	z-index:1000;
+	display:none;
+}
+
+#lb_UI{
+	width:30%;
+	height:67%;
+	background:#F9D5D5;
+	border-radius:20px;
+	margin-left:450px;
+	margin-top:90px;
+	padding:20px;
+	text-align:justify;
+	color:black;
+	font-family:calibri;
+
+}
+#lb_UI2{
+	width:40%;
+	height:70%;
+	background:#F9D5D5;
+	border-radius:20px;
+	margin-left:400px;
+	margin-top:82px;
+	padding:20px;
+	text-align:justify;
+	color:black;
+	font-family:calibri;
+}
+#lb_UI3{
+	width:30%;
+	height:30%;
+	background:red;
+	border-radius:20px;
+	margin-left:460px;
+	margin-top:120px;
+	padding:20px;
+	text-align:center; 
+	color:white;
+	font-family:calibri;
+	line-height: 50px;
+}
+
+#image{
+	margin-top:80px;
+	margin-left:35px;
+	float: left;
+	height:500px;
+	width:400px;
+	border-radius:20px;
+}
+
+#image2{
+	margin-top:80px;
+	margin-left:35px;
+	float: left;
+	height:500px;
+	width:400px;
+	border-radius:20px;
+}
+
+#image3{
+	margin-top:80px;
+	margin-left:35px;
+	float: left;
+	height:500px;
+	width:400px;
+	border-radius:20px;
+}
+
+a{
+	margin-left:10px;
+	margin-top:5px;
+	text-decoration:none;
+	color:black;
+}
+
+</style>
+</head>
+<body>
+	<div id="lightbox">
+		<div id="lb_UI">
+			<a href="">x</a>
+			<h4>simple fried egg in olive oil</h4>
+			<ul>
+			<li>fresh eggs</li>
+			<li>good olive oil</li>
+			<li>crunchy sea salt</li>
+			</ul>
+			Heat a non-stick frying pan over medium heat.  You want the pan to be warm when you add the olive oil.  For this, I just place my hand over the pan and feel the radiating heat.  Add enough olive oil to the cover the bottom of the pan to pool a little on the side if you tilt your pan (about 2 to 3 tbls).  Crack the egg into the pan and immediately sprinkle the yolk with a little bit of crunchy salt.  As soon as the white starts to cook at the bottom, tilt the pan to one side and with a spoon collect some oil and baste the top of the egg with it.  This will help cook the white but it shouldn't cook the yolk.  When the edges are slightly crispy and the white is cooked, remove the egg with a spatula.  And there you have it!  
+			<p>Serve with some Jamon and a litle mustard vinaigrette made with leftover oil to spoon over the egg and Jamon.</p>
+		</div>
+	</div>
+	<div id="lightbox2">
+		<div id="lb_UI2">
+			<a href="">x</a>
+			<h4>blueberry and yogurt cake</h4>
+			<ul>
+			<li>makes a 9-inch bundt pan</li>
+			<li>1 cup (140 g) superfine brown rice flour</li>
+			<li>1/2 cup (60 g) millet flour</li>
+			<li>2 tablespoons tapioca starch</li>
+			<li>1 tablespoon baking powder</li>
+			<li>1/2 teaspoon salt</li>
+			<li>3 eggs</li>
+			<li>1 cup (200 g) natural cane sugar</li>
+			<li>1 cup (250 ml) whole-milk yogurt</li>
+			<li>1/2 cup (125 ml) olive oil, plus more for pan</li>
+			<li>Zest of 1 lemon</li>
+			<li>7 ounces (200 g) blueberries</li>
+			</ul>
+			Preheat oven to 350F (180C). Brush a bundt pan with a bit of olive oil.
+			In a large bowl, mix together the superfine brown rice flour, millet flour, tapioca starch, baking powder and salt.
+			In another bowl, whisk together the eggs, sugar, yogurt, olive oil and lemon zest. Pour the wet ingredients over the dry and whisk together. Fold the blueberries into the batter and pour into the bundt pan.
+			Bake cake for 30 to 40 minutes or until center of cake completely baked. To test for doneness, insert toothpick and it’s done when it comes out clean. Let cake cool completely in pan and then turn over to unmold over a serving plate.
+
+		</div>
+	</div>
+	<div id="lightbox3">
+		<div id="lb_UI3">
+			<a href="">x</a>
+			<h4>ice creammmm</h4>
+
+		</div>
+	</div>
+	<div>
+	<img id="image" src="images/eggs.jpg"/>
+	</div>
+	<div>
+	<img id="image2" src="images/blueberry.jpg"/>
+	</div>
+	<div>
+	<img id="image3" src="images/icecream.jpg"/>
+	</div>
+</body>
+</html>
